@@ -1,0 +1,23 @@
+{
+  "name": "momos",
+  "version": "1.0.0",
+  "description": "This is momos backend server for user registration etc.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "author": "Pankaj Goyal",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chai-http": "4.2.1",
+    "mocha": "5.2.0"
+  },
+  "dependencies": {
+    "async": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "express": "4.16.4",
+    "express-session": "^1.17.0",
+    "md5": "^2.3.0",
+    "redis": "^2.8.0"
+  }
